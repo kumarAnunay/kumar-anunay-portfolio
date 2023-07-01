@@ -600,6 +600,7 @@ body:not(.user-is-tabbing) a:focus {
 
     #brief-about {
         width: 100%;
+        font-size: 15px;
     }
 
     .row {
