@@ -675,3 +675,37 @@ body:not(.user-is-tabbing) a:focus {
         align-items: initial;
     }
 }
+
+@media(max-width: 768px) {
+    h1 {
+        font-size: var(--font-size-medium-1);
+        margin-bottom: var(--gutter-small);
+    }
+
+    h2 {
+        font-size: var(--font-size-medium);
+        margin-bottom: var(--gutter-small);
+    }
+
+    p {
+        font-size: var(--font-size-normal);
+        margin-bottom: var(--gutter-small);
+    }
+}
+
+@media(max-width: 480px) {
+    h1 {
+        font-size: var(--font-size-medium);
+        margin-bottom: var(--gutter-small);
+    }
+
+    h2 {
+        font-size: var(--font-size-normal);
+        margin-bottom: var(--gutter-small);
+    }
+
+    p {
+        font-size: var(--font-size-small);
+        margin-bottom: var(--gutter-small);
+    }
+}
